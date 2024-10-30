@@ -104,6 +104,33 @@ Use of this dataset in publications must be cited to the following publication:
 
 ## Assignment Steps
 
+### 1. Data preparation
+- clean the data structure
+- drop unneccessary variables
+- create dummy variables for all categorical features
+- divide the data to train and test
+- perform scaling
+- divide data into dependent and independent variables.
+
+### 2. Data visualisations
+- perform EDA to understand various variables
+- check correlation between the variables 
+
+### 3. Data modelling and evaluation
+- create linear regression model with no Regularisation
+- eliminate fields using p-value and VFI
+- residual analysis and assumption validation
+- predicting on test data and evaluating using evaluation matrices
+
+## Assignment Steps
+- The R-squared value of the train set is 82.20% whereas the test set has a value of 81.10% which suggests that our model broadly explains the variance quite accurately on the test set and thus we can conclude that it is a good model.
+
+- Our developed model's mean squared error is almost 0 on both the training and testing datasets which suggests that the variance is accurately predicted on the test set. The p-values and VIF were used to select the significant variables. RFE was also conducted for automated selection of variables.
+
+- The major steps included in the python notebook are data interpretation, data visualisation, data pre-processing, model training, feature selection, residual analysis, model evaluation on the test set.
+
+- Concepts such as EDA, p-value, VIF, RFE were used and model building was done using statsmodels library
+
 ## Technologies Used
 - Python - version 3.12.4
 - Matplotlib - version 3.7.1
@@ -114,7 +141,6 @@ Use of this dataset in publications must be cited to the following publication:
 - Scikit-learn - version 1.4.2
 
 ## Acknowledgements
-Give credit here.
 - Upgrad Team and instructors
 
 ## Contributors
