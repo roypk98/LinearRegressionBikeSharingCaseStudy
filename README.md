@@ -122,7 +122,7 @@ Use of this dataset in publications must be cited to the following publication:
 - residual analysis and assumption validation
 - predicting on test data and evaluating using evaluation matrices
 
-## Assignment Steps
+## Conclusions
 - The R-squared value of the train set is 82.20% whereas the test set has a value of 81.10% which suggests that our model broadly explains the variance quite accurately on the test set and thus we can conclude that it is a good model.
 
 - Our developed model's mean squared error is almost 0 on both the training and testing datasets which suggests that the variance is accurately predicted on the test set. The p-values and VIF were used to select the significant variables. RFE was also conducted for automated selection of variables.
